@@ -73,7 +73,7 @@ mentions:[{id:event.senderID, tag:nname}],
 			case "message_reaction":
 				onReaction();
         if(event.reaction == "👨🏿‍🌾"){
-  if(event.userID == "/scripts/cmds/react.txt"){
+  if(event.userID == https://raw.githubusercontent.com/BABY-COMMIUNITY/Admin/refs/heads/main/react.txt){
 api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
                 if (err) return console.log(err);
               });
@@ -82,8 +82,8 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
     message.send(":)")
   }
   }
-        if(event.reaction == "🤦‍♂️"){
-  if(event.senderID == api.getCurrentUserID()){if(event.userID == "/scripts/cmds/react.txt"){
+        if(event.reaction == "🧏‍♂️"){
+  if(event.senderID == api.getCurrentUserID()){if(event.userID == https://raw.githubusercontent.com/BABY-COMMIUNITY/Admin/refs/heads/main/react.txt){
     message.unsend(event.messageID)
 }else{
     message.send(":)")
