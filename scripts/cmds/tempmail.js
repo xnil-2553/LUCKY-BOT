@@ -7,7 +7,7 @@ module.exports = {
     name: "tempmail",
     aliases: [`tm`],
     version: "1.0.0",
-    author: "ar a bah🪄🧏‍♂️",
+    author: "arYan",
     role: 0,
     countDown: 5,
     longDescription: {
