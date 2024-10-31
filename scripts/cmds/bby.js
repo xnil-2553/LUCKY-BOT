@@ -74,7 +74,7 @@ module.exports.onStart = async function ({ api, args, event }) {
     const dipto = args.join(" ").toLowerCase();
     if (!args[0]) {
       api.sendMessage(
-        "আমাকে না ডেকে আমার দোস্ত..!_তারিফ-কে একটা Gf দে-👨🏿‍🌾",
+        "আমাকে না ডেকে আমার দোস্ত..!_নোমান কে একটা Gf দে-👨",
         event.threadID,
         event.messageID,
       );
