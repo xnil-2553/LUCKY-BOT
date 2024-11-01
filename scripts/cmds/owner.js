@@ -16,16 +16,16 @@ module.exports = {
 	onStart: async function ({ api, event }) {
 		try {
 			const ArYanInfo = {
-				name: 'Ꮇʀᵀᴬᴿᴵᶠ~Ұ₮࿐',
-				gender: 'male',
-				age: '16+',
-				Tiktok: 'md.tarif0196',
+				name: '𝗡𝗼𝗺𝗮𝗻 𝗞𝗵𝗮𝗻',
+				gender: 'Male',
+				age: '17+',
+				Instagram: '𝗿𝗮𝗸𝗶𝗯𝘂𝗹_38_92',
 				Relationship: 'single pro max',
-				religion: '×××',
-				facebook: 'https://m.me/mr.tarif.yt130.T'
+				religion: '𝗜𝘀𝗹𝗮𝗺',
+				facebook: ' https://www.facebook.com/profile.php?id=61557010147525&mibextid=ZbWKwL'
 			};
 
-			const ArYan = 'https://i.imgur.com/av524ui.jpeg';
+			const ArYan = 'https://i.imgur.com/j2xP2ep.jpeg';
 			const tmpFolderPath = path.join(__dirname, 'tmp');
 
 			if (!fs.existsSync(tmpFolderPath)) {
