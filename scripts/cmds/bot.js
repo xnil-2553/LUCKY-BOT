@@ -21,7 +21,7 @@ module.exports = {
     const time = moment.tz("Asia/Dhaka").format("HH:mm:ss L"); // Corrected time format
     var idgr = `${event.threadID}`;
     var id = event.senderID;
-  var name = await Users.getNameUser(event.senderID);
+    
     const responses = [
       "میــــــرے نال ویا کــــــر لو 😊💔",
       "Ittuu🤏 si shram ker Lya kro bot bot krty wqt 🙂 💔✨⚠️†"
