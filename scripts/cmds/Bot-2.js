@@ -417,11 +417,8 @@ if ((event.body.toLowerCase() == "hye") || (event.body.toLowerCase() == "hy")) {
      return api.sendMessage("Yes <3", threadID);
    }
    
-  if ((event.body.toLowerCase() == "kutta") || (event.body.toLowerCase() == "kanjar","ganda bot")) {
-     return api.sendMessage("️Same to you Chup Kr K Bay🙄", threadID, messageID);
-   }
 
-if ((event.body.toLowerCase() == "bot miss you yr") || (event.body.toLowerCase() == "sim miss you")) {
+   if ((event.body.toLowerCase() == "bot miss you yr") || (event.body.toLowerCase() == "sim miss you")) {
      return api.sendMessage("️miss you Too MaRi Jan😘", threadID, messageID);
    }
 
